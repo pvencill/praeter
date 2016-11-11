@@ -1,0 +1,32 @@
+{
+  "name": "praeter",
+  "version": "0.0.1",
+  "description": "Simple module with common HTTP error codes as error objects and a connect-compatible middleware for catching them",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/_mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pvencill/praeter.git"
+  },
+  "keywords": [
+    "connect",
+    "exceptions",
+    "errors"
+  ],
+  "author": "Paul Vencill",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pvencill/praeter/issues"
+  },
+  "homepage": "https://github.com/pvencill/praeter#readme",
+  "dependencies": {
+    "debug": "^2.3.2",
+    "extendable-error-class": "^0.1.1"
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2"
+  }
+}
